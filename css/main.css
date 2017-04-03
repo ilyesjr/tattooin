@@ -94,23 +94,271 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*Navigation part*/
+nav
+{
+  display: flex;
+}
+nav ul
+{
+  display: inline-flex;
+  padding: 10px 0 5px 0;
+  margin: auto;
+}
 
+nav ul li
+{
+  display: flex;
+  margin-left: 1.5em;
+  list-style-type: none;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bolder;
+}
 
+nav li a
+{
+  text-decoration: none;
+  color: black;
+}
+/*====================*/
+/*====================*/
+/*Header part*/
+header
+{
+  display: flex;
+  background-image: url(../img/space.jpg);
+  height: 100vh;
+  width: 100%;
+}
 
+header figure
+{
+  margin: auto;
+}
 
+header img
+{
+  width: 280px;
+  height: 191.6px;
+}
+/*====================*/
+/*====================*/
+/*Section part*/
+#home
+{
+  display: flex;
+  flex-direction: column;
+}
 
+#home h1
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: center;
+}
 
+#home figure
+{
+  margin: auto;
+}
 
+#home img
+{
+  width: 90vw;
+  height: auto;
+  margin-bottom: 1em;
+}
+/*====================*/
+/*====================*/
+/*Footer part*/
+footer
+{
+  background-image: url(../img/space.jpg);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+footer figure
+{
+  padding: 16px 40px 16px 40px;
+  margin: auto;
+}
 
+footer figure img
+{
+  width: 186.6px;
+  height: 127.7px;
+}
 
+.button
+{
+  padding-bottom: 1em;
+  margin: auto;
+}
+footer button
+{
+  background-color: transparent;
+  border: none;
+}
 
+footer button img
+{
+  width: 45px;
+}
+/*====================*/
+/*END OF HOMEPAGE*/
+/*====================*/
 
+/*====================*/
+/*STAR OF CATALOG*/
+/*====================*/
+#catalog
+{
+  display: flex;
+  flex-direction: column;
+}
 
+#catalog h1
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: center;
+}
 
+#catalog figure
+{
+  margin: auto;
+}
 
+#catalog img
+{
+  width: 90vw;
+  height: auto;
+  margin-bottom: 1em;
+}
 
+#catalog p
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+/*====================*/
+/*END OF CATALOG*/
+/*====================*/
 
+/*====================*/
+/*START OF BLOG*/
+/*====================*/
+#blog
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#blog h1
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: center;
+}
+#blog article
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+
+#blog h2
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+  margin: auto;
+  padding-bottom: 0.5em;
+}
+#blog figure
+{
+  margin: auto;
+}
+
+#blog img
+{
+  width: 90vw;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+#blog p
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+}
+
+#blog a
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+  padding-top: 0.5em;
+}
+/*====================*/
+/*END OF BLOG*/
+/*====================*/
+
+/*====================*/
+/*START OF CONTACT*/
+/*====================*/
+#contact
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#contact h1
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#contact form
+{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2em;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#contact h2
+{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+#contact iframe
+{
+  width: 90%;
+  margin: auto;
+  padding-bottom: 2em;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
