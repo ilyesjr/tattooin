@@ -359,6 +359,41 @@ footer button img
   margin: auto;
   padding-bottom: 2em;
 }
+/*====================*/
+/*END OF CONTACT*/
+/*====================*/
+
+/*Media Tablet and Desktop*/
+@media (min-width: 768px)
+{
+  #home img
+  {
+    width: 60vw;
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  #catalog img
+  {
+    width: 60vw;
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  #blog img
+  {
+    width: 60vw;
+    height: auto;
+    margin-bottom: 1em;
+  }
+
+  #contact form , #contact iframe
+  {
+    display: inline-flex;
+  }
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
